@@ -16,6 +16,7 @@ public class NumeralToRoman {
 		String res ="";
 		int nb = nombre;
 		while(nb > 0) {
+			
 			if (nb >= 1000) {
 				res += "M";
 				nb -= 1000;
@@ -46,6 +47,6 @@ public class NumeralToRoman {
 	
 	public static void main(String[] args) {
 		NumeralToRoman test = new NumeralToRoman();
-		test.getRoman(2100);
+		test.getRoman(2174);
 	}
 }
