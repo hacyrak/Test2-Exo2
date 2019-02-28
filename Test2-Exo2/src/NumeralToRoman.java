@@ -47,6 +47,6 @@ public class NumeralToRoman {
 	
 	public static void main(String[] args) {
 		NumeralToRoman test = new NumeralToRoman();
-		test.getRoman(2174);
+		test.getRoman(1063);
 	}
 }
