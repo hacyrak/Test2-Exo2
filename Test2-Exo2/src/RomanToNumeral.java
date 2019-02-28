@@ -27,7 +27,9 @@ public class RomanToNumeral {
 			}
 			else {
 				res += chiffreSuivant-chiffre;
-			}	
+			}
+			System.out.println(res);
+			
 		}
 		return res;
 	}
